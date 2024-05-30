@@ -1,0 +1,74 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.facultyChooser {
+  margin-bottom: 20px;
+}
+
+.select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd; 
+  border-radius: 3px; 
+  font-size: 16px; 
+}
+.attendanceGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  margin: 0 -10px; 
+}
+
+.attendanceGrid div {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: 10px; 
+  background-color: #56ffda; 
+}
+
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.student {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.marker {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px; 
+  border: 1px solid #000000;
+  margin-left: 10px;
+  border-radius: 50%; 
+  cursor: pointer; 
+}
+
+.present {
+  background-color: green; 
+  color: white; 
+}
+
+.absent {
+  background-color: rgb(255, 32, 32); 
+  color: white; 
+}
